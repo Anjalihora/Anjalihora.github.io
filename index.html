@@ -527,10 +527,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 <br>
 <input type ="text" id "yourmessage" placeholder="enter your message">
 <br>
-<button id = "save" width="15px" height="15px"> Submit </button>
+<button onclick = "ShowAlert()" width="15px" height="15px"> Submit </button>
 <script>
 	var username = document.getElementById("yourmessage").value;
-	alert(username);
+	function ShowAlert{
+		alert("username");
+	}
 </script>
 							
 							
